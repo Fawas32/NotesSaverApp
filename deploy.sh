@@ -4,7 +4,7 @@ sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
 #stop any instance of our application running currently
 pm2 stop SaveNotesApp
-#change directory into folder where application is downloaded
+#change directory into folder where application is 
 cd SaveNotesApp/
 # Install application dependencies
 npm install
