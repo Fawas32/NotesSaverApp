@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// Array to store notes (You might want to use a database in a real-world scenario)
+
 let notes = [];
 
 // Serve HTML file for the note app
